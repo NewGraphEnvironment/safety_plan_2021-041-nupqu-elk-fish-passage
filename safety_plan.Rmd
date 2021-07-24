@@ -497,7 +497,7 @@ table_sites <- left_join(tab_prep3,
                          by = 'modelled_crossing_id'
 ) %>% 
   mutate(sub5 = total_slopeclass03_waterbodies_km + total_slopeclass05_km,
-         name = paste0(aggregated_crossings_id, ' - ', source, '-', my_priority, ' - ', gnis_name), 
+         name = paste0(aggregated_crossings_id, ' - ', source, '-', dbm_mof_50k_grid, '-', my_priority, ' - ', gnis_name), 
          desc = paste0('sub5 ', sub5, ' co_s ', co_spawning_km, ' co_r ', co_rearing_km, ' co_ha ', 
                        co_rearing_ha, ' ', ' cw ', channel_width, ' ', my_text),
          color = case_when(my_priority == 'mod' ~ 'yellow',

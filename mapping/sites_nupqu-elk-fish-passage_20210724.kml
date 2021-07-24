@@ -1730,7 +1730,7 @@
         </BalloonStyle>
       </Style>
       <Placemark>
-        <name>50060 - 2020_planning-mod - Harvey Creek</name>
+        <name>50060 - 2020_planning-082G.109-mod - Harvey Creek</name>
         <styleUrl>#pnt1</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -1783,7 +1783,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>50061 - 2020_planning-high - Fuel Creek</name>
+        <name>50061 - 2020_planning-082G.109-high - Fuel Creek</name>
         <styleUrl>#pnt2</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -1840,7 +1840,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>50063 - 2020_planning-high - Kisoo Creek</name>
+        <name>50063 - 2020_planning-082G.109-high - Kisoo Creek</name>
         <styleUrl>#pnt3</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -1895,7 +1895,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>50072 - 2020_planning-mod - NA</name>
+        <name>50072 - 2020_planning-082G.104-mod - NA</name>
         <styleUrl>#pnt4</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -1944,7 +1944,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>50073 - 2020_planning-mod - NA</name>
+        <name>50073 - 2020_planning-082G.104-mod - NA</name>
         <styleUrl>#pnt5</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -1997,7 +1997,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>50075 - 2020_planning-mod - NA</name>
+        <name>50075 - 2020_planning-082G.104-mod - NA</name>
         <styleUrl>#pnt6</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -2048,7 +2048,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>50081 - 2020_planning-mod - NA</name>
+        <name>50081 - 2020_planning-082G.104-mod - NA</name>
         <styleUrl>#pnt7</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -2097,7 +2097,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>50084 - 2020_planning-high - NA</name>
+        <name>50084 - 2020_planning-082G.104-high - NA</name>
         <styleUrl>#pnt8</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -2148,7 +2148,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>50085 - 2020_planning-high - NA</name>
+        <name>50085 - 2020_planning-082G.104-high - NA</name>
         <styleUrl>#pnt9</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -2197,7 +2197,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>50086 - 2020_planning-mod - NA</name>
+        <name>50086 - 2020_planning-082G.104-mod - NA</name>
         <styleUrl>#pnt10</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -2250,7 +2250,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>50100 - 2020_planning-mod - NA</name>
+        <name>50100 - 2020_planning-082G.104-mod - NA</name>
         <styleUrl>#pnt11</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -2301,7 +2301,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>50101 - 2020_planning-mod - NA</name>
+        <name>50101 - 2020_planning-082G.104-mod - NA</name>
         <styleUrl>#pnt12</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -2352,7 +2352,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>50102 - 2020_planning-mod - NA</name>
+        <name>50102 - 2020_planning-082G.104-mod - NA</name>
         <styleUrl>#pnt13</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -2401,7 +2401,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>50152 - 2020_field-NA - NA</name>
+        <name>50152 - 2020_field-082G.113-NA - NA</name>
         <styleUrl>#pnt14</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -2448,7 +2448,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>50181 - 2020_field-NA - NA</name>
+        <name>50181 - 2020_field-082G.108-NA - NA</name>
         <styleUrl>#pnt15</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -2497,7 +2497,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>50185 - 2020_field-NA - NA</name>
+        <name>50185 - 2020_field-082G.108-NA - NA</name>
         <styleUrl>#pnt16</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -2546,7 +2546,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>50261 - 2020_field-NA - NA</name>
+        <name>50261 - 2020_field-082G.114-NA - NA</name>
         <styleUrl>#pnt17</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -2595,7 +2595,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>50273 - 2020_planning-mod - Robert Creek</name>
+        <name>50273 - 2020_planning-082G.118-mod - Robert Creek</name>
         <styleUrl>#pnt18</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -2650,7 +2650,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>61504 - cwf-NA - Coal Creek</name>
+        <name>61504 - cwf-082G.113-NA - Coal Creek</name>
         <styleUrl>#pnt19</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -2703,7 +2703,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>62120 - 2020_planning-mod - NA</name>
+        <name>62120 - 2020_planning-082G.109-mod - NA</name>
         <styleUrl>#pnt20</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -2756,7 +2756,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>62265 - 2020_planning-mod - NA</name>
+        <name>62265 - 2020_planning-082J.108-mod - NA</name>
         <styleUrl>#pnt21</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -2807,7 +2807,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>62423 - 2020_field-NA - Grave Creek</name>
+        <name>62423 - 2020_field-082G.124-NA - Grave Creek</name>
         <styleUrl>#pnt22</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -2860,7 +2860,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>62425 - 2020_planning-mod - Grave Creek</name>
+        <name>62425 - 2020_planning-082G.124-mod - Grave Creek</name>
         <styleUrl>#pnt23</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -2955,7 +2955,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>62425 - 2020_planning-mod - Grave Creek</name>
+        <name>62425 - 2020_planning-082G.124-mod - Grave Creek</name>
         <styleUrl>#pnt24</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -3050,7 +3050,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>62425 - 2020_planning-mod - Grave Creek</name>
+        <name>62425 - 2020_planning-082G.124-mod - Grave Creek</name>
         <styleUrl>#pnt25</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -3145,7 +3145,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>62426 - 2020_planning-mod - Grave Creek</name>
+        <name>62426 - 2020_planning-082G.124-mod - Grave Creek</name>
         <styleUrl>#pnt26</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -3240,7 +3240,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>62426 - 2020_planning-mod - Grave Creek</name>
+        <name>62426 - 2020_planning-082G.124-mod - Grave Creek</name>
         <styleUrl>#pnt27</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -3335,7 +3335,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>62426 - 2020_planning-mod - Grave Creek</name>
+        <name>62426 - 2020_planning-082G.124-mod - Grave Creek</name>
         <styleUrl>#pnt28</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -3430,7 +3430,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>102994 - 2020_planning-mod - NA</name>
+        <name>102994 - 2020_planning-082G.119-mod - NA</name>
         <styleUrl>#pnt29</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -3483,7 +3483,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>197527 - cwf-NA - Crossing Creek</name>
+        <name>197527 - cwf-082J.103-NA - Crossing Creek</name>
         <styleUrl>#pnt30</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -3536,7 +3536,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>197533 - 2020_field-NA - Brûlé Creek</name>
+        <name>197533 - 2020_field-082G.123-NA - Brûlé Creek</name>
         <styleUrl>#pnt31</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -3589,7 +3589,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>197534 - 2020_field-NA - Weigert Creek</name>
+        <name>197534 - 2020_field-082G.123-NA - Weigert Creek</name>
         <styleUrl>#pnt32</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -3640,7 +3640,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>197542 - 2020_field-NA - Hartley Creek</name>
+        <name>197542 - 2020_field-082G.113-NA - Hartley Creek</name>
         <styleUrl>#pnt33</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -3693,7 +3693,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>197555 - 2020_field-NA - NA</name>
+        <name>197555 - 2020_field-082J.103-NA - NA</name>
         <styleUrl>#pnt34</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -3742,7 +3742,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>197559 - 2020_field-NA - Brûlé Creek</name>
+        <name>197559 - 2020_field-082G.123-NA - Brûlé Creek</name>
         <styleUrl>#pnt35</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -3795,7 +3795,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004600156 - 2020_planning-mod - NA</name>
+        <name>1004600156 - 2020_planning-082G.113-mod - NA</name>
         <styleUrl>#pnt36</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -3848,7 +3848,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004600264 - 2020_planning-mod - NA</name>
+        <name>1004600264 - 2020_planning-082G.109-mod - NA</name>
         <styleUrl>#pnt37</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -3899,7 +3899,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004600267 - 2020_planning-high - NA</name>
+        <name>1004600267 - 2020_planning-082G.109-high - NA</name>
         <styleUrl>#pnt38</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -3952,7 +3952,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004600533 - cwf-NA - Chauncey Creek</name>
+        <name>1004600533 - cwf-082J.103-NA - Chauncey Creek</name>
         <styleUrl>#pnt39</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -4003,7 +4003,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004600621 - 2020_planning-mod - Quail Creek</name>
+        <name>1004600621 - 2020_planning-082G.113-mod - Quail Creek</name>
         <styleUrl>#pnt40</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -4054,7 +4054,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004600762 - cwf-NA - Fording River</name>
+        <name>1004600762 - cwf-082J.103-NA - Fording River</name>
         <styleUrl>#pnt41</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -4105,7 +4105,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004601149 - 2020_planning-high - NA</name>
+        <name>1004601149 - 2020_planning-082G.124-high - NA</name>
         <styleUrl>#pnt42</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -4158,7 +4158,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004601280 - cwf-NA - NA</name>
+        <name>1004601280 - cwf-082G.119-NA - NA</name>
         <styleUrl>#pnt43</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -4207,7 +4207,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004601582 - 2020_planning-mod - NA</name>
+        <name>1004601582 - 2020_planning-082G.113-mod - NA</name>
         <styleUrl>#pnt44</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -4258,7 +4258,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004601687 - 2020_planning-high - NA</name>
+        <name>1004601687 - 2020_planning-082G.109-high - NA</name>
         <styleUrl>#pnt45</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -4309,7 +4309,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004601704 - cwf-NA - Morrissey Creek</name>
+        <name>1004601704 - cwf-082G.108-NA - Morrissey Creek</name>
         <styleUrl>#pnt46</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -4358,7 +4358,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004601984 - cwf-NA - NA</name>
+        <name>1004601984 - cwf-082G.108-NA - NA</name>
         <styleUrl>#pnt47</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -4405,7 +4405,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004601993 - cwf-NA - Rabbit Creek</name>
+        <name>1004601993 - cwf-082G.103-NA - Rabbit Creek</name>
         <styleUrl>#pnt48</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -4454,7 +4454,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004601995 - cwf-NA - Rabbit Creek</name>
+        <name>1004601995 - cwf-082G.103-NA - Rabbit Creek</name>
         <styleUrl>#pnt49</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -4503,7 +4503,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004602098 - 2020_planning-mod - NA</name>
+        <name>1004602098 - 2020_planning-082G.113-mod - NA</name>
         <styleUrl>#pnt50</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -4554,7 +4554,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004602163 - cwf-NA - Morrissey Creek</name>
+        <name>1004602163 - cwf-082G.113-NA - Morrissey Creek</name>
         <styleUrl>#pnt51</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -4603,7 +4603,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004602218 - 2020_planning-high - NA</name>
+        <name>1004602218 - 2020_planning-082G.118-high - NA</name>
         <styleUrl>#pnt52</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -4656,7 +4656,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004602359 - cwf-NA - Rabbit Creek</name>
+        <name>1004602359 - cwf-082G.103-NA - Rabbit Creek</name>
         <styleUrl>#pnt53</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -4705,7 +4705,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004602514 - cwf-NA - Harmer Creek</name>
+        <name>1004602514 - cwf-082G.119-NA - Harmer Creek</name>
         <styleUrl>#pnt54</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -4756,7 +4756,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004602564 - 2020_planning-mod - NA</name>
+        <name>1004602564 - 2020_planning-082G.109-mod - NA</name>
         <styleUrl>#pnt55</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -4807,7 +4807,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004602620 - 2020_planning-mod - NA</name>
+        <name>1004602620 - 2020_planning-082G.109-mod - NA</name>
         <styleUrl>#pnt56</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -4856,7 +4856,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004602646 - cwf-NA - NA</name>
+        <name>1004602646 - cwf-082G.108-NA - NA</name>
         <styleUrl>#pnt57</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -4903,7 +4903,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004602726 - 2020_planning-mod - Flanders Brook</name>
+        <name>1004602726 - 2020_planning-082G.105-mod - Flanders Brook</name>
         <styleUrl>#pnt58</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -4956,7 +4956,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004602869 - 2020_planning-high - Couldrey Creek</name>
+        <name>1004602869 - 2020_planning-082G.104-high - Couldrey Creek</name>
         <styleUrl>#pnt59</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -5009,7 +5009,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004602949 - cwf-NA - Weigert Creek</name>
+        <name>1004602949 - cwf-082G.123-NA - Weigert Creek</name>
         <styleUrl>#pnt60</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -5058,7 +5058,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004603040 - 2020_planning-mod - NA</name>
+        <name>1004603040 - 2020_planning-082J.103-mod - NA</name>
         <styleUrl>#pnt61</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -5111,7 +5111,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004603334 - cwf-NA - Fording River</name>
+        <name>1004603334 - cwf-082J.108-NA - Fording River</name>
         <styleUrl>#pnt62</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -5162,7 +5162,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004603413 - cwf-NA - Henretta Creek</name>
+        <name>1004603413 - cwf-082J.108-NA - Henretta Creek</name>
         <styleUrl>#pnt63</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -5213,7 +5213,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004603432 - 2020_planning-mod - NA</name>
+        <name>1004603432 - 2020_planning-082J.113-mod - NA</name>
         <styleUrl>#pnt64</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -5264,7 +5264,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004603477 - 2020_planning-high - Burnham Creek</name>
+        <name>1004603477 - 2020_planning-082G.104-high - Burnham Creek</name>
         <styleUrl>#pnt65</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -5319,7 +5319,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004603480 - cwf-NA - Bean Creek</name>
+        <name>1004603480 - cwf-082G.108-NA - Bean Creek</name>
         <styleUrl>#pnt66</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -5368,7 +5368,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004603553 - cwf-NA - Bighorn Creek</name>
+        <name>1004603553 - cwf-082G.104-NA - Bighorn Creek</name>
         <styleUrl>#pnt67</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -5419,7 +5419,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004603597 - 2020_planning-high - NA</name>
+        <name>1004603597 - 2020_planning-082G.104-high - NA</name>
         <styleUrl>#pnt68</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -5470,7 +5470,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004603725 - 2020_planning-high - Pollock Creek</name>
+        <name>1004603725 - 2020_planning-082G.109-high - Pollock Creek</name>
         <styleUrl>#pnt69</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -5525,7 +5525,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004603791 - cwf-NA - NA</name>
+        <name>1004603791 - cwf-082G.109-NA - NA</name>
         <styleUrl>#pnt70</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -5574,7 +5574,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004603793 - cwf-NA - Lodgepole Creek</name>
+        <name>1004603793 - cwf-082G.109-NA - Lodgepole Creek</name>
         <styleUrl>#pnt71</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -5625,7 +5625,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004603904 - 2020_planning-mod - NA</name>
+        <name>1004603904 - 2020_planning-082G.109-mod - NA</name>
         <styleUrl>#pnt72</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -5674,7 +5674,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004603908 - 2020_planning-mod - McLatchie Creek</name>
+        <name>1004603908 - 2020_planning-082G.109-mod - McLatchie Creek</name>
         <styleUrl>#pnt73</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -5727,7 +5727,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004604006 - 2020_planning-mod - Gardner Creek</name>
+        <name>1004604006 - 2020_planning-082J.108-mod - Gardner Creek</name>
         <styleUrl>#pnt74</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -5780,7 +5780,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004604677 - cwf-NA - Henretta Creek</name>
+        <name>1004604677 - cwf-082J.108-NA - Henretta Creek</name>
         <styleUrl>#pnt75</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -5831,7 +5831,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004604696 - cwf-NA - Henretta Creek</name>
+        <name>1004604696 - cwf-082J.108-NA - Henretta Creek</name>
         <styleUrl>#pnt76</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -5882,7 +5882,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004605216 - cwf-NA - NA</name>
+        <name>1004605216 - cwf-082G.103-NA - NA</name>
         <styleUrl>#pnt77</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -5929,7 +5929,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004605338 - cwf-NA - NA</name>
+        <name>1004605338 - cwf-082G.103-NA - NA</name>
         <styleUrl>#pnt78</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -5976,7 +5976,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004605451 - 2020_planning-high - Nettie Creek</name>
+        <name>1004605451 - 2020_planning-082G.104-high - Nettie Creek</name>
         <styleUrl>#pnt79</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -6031,7 +6031,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004605458 - 2020_planning-mod - NA</name>
+        <name>1004605458 - 2020_planning-082G.104-mod - NA</name>
         <styleUrl>#pnt80</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -6076,7 +6076,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004605499 - cwf-NA - NA</name>
+        <name>1004605499 - cwf-082G.108-NA - NA</name>
         <styleUrl>#pnt81</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -6123,7 +6123,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004605937 - cwf-NA - NA</name>
+        <name>1004605937 - cwf-082G.104-NA - NA</name>
         <styleUrl>#pnt82</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -6170,7 +6170,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004606007 - cwf-NA - Weigert Creek</name>
+        <name>1004606007 - cwf-082G.123-NA - Weigert Creek</name>
         <styleUrl>#pnt83</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -6219,7 +6219,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004606129 - cwf-NA - NA</name>
+        <name>1004606129 - cwf-082G.103-NA - NA</name>
         <styleUrl>#pnt84</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -6268,7 +6268,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004606284 - cwf-NA - Fording River</name>
+        <name>1004606284 - cwf-082J.108-NA - Fording River</name>
         <styleUrl>#pnt85</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -6317,7 +6317,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004606347 - cwf-NA - Bean Creek</name>
+        <name>1004606347 - cwf-082G.108-NA - Bean Creek</name>
         <styleUrl>#pnt86</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -6366,7 +6366,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004606370 - cwf-NA - Lodgepole Creek</name>
+        <name>1004606370 - cwf-082G.109-NA - Lodgepole Creek</name>
         <styleUrl>#pnt87</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -6417,7 +6417,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004606398 - cwf-NA - Lodgepole Creek</name>
+        <name>1004606398 - cwf-082G.109-NA - Lodgepole Creek</name>
         <styleUrl>#pnt88</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -6466,7 +6466,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004606411 - cwf-NA - NA</name>
+        <name>1004606411 - cwf-082G.108-NA - NA</name>
         <styleUrl>#pnt89</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -6515,7 +6515,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004606501 - 2020_planning-mod - NA</name>
+        <name>1004606501 - 2020_planning-082G.109-mod - NA</name>
         <styleUrl>#pnt90</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -6566,7 +6566,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004606506 - 2020_planning-high - NA</name>
+        <name>1004606506 - 2020_planning-082G.109-high - NA</name>
         <styleUrl>#pnt91</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -6615,7 +6615,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004606545 - 2020_planning-high - Cummings Creek</name>
+        <name>1004606545 - 2020_planning-082G.123-high - Cummings Creek</name>
         <styleUrl>#pnt92</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -6668,7 +6668,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004606597 - 2020_planning-mod - NA</name>
+        <name>1004606597 - 2020_planning-082G.104-mod - NA</name>
         <styleUrl>#pnt93</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -6719,7 +6719,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004606751 - 2020_planning-mod - Whiting Creek</name>
+        <name>1004606751 - 2020_planning-082G.118-mod - Whiting Creek</name>
         <styleUrl>#pnt94</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -6772,7 +6772,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004606800 - 2020_planning-mod - NA</name>
+        <name>1004606800 - 2020_planning-082G.108-mod - NA</name>
         <styleUrl>#pnt95</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -6823,7 +6823,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004606821 - 2020_planning-mod - Erickson Creek</name>
+        <name>1004606821 - 2020_planning-082G.119-mod - Erickson Creek</name>
         <styleUrl>#pnt96</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -6878,7 +6878,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004606926 - cwf-NA - Bighorn Creek</name>
+        <name>1004606926 - cwf-082G.104-NA - Bighorn Creek</name>
         <styleUrl>#pnt97</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -6927,7 +6927,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004607003 - 2020_planning-mod - NA</name>
+        <name>1004607003 - 2020_planning-082G.114-mod - NA</name>
         <styleUrl>#pnt98</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -6978,7 +6978,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004607022 - cwf-NA - McCool Creek</name>
+        <name>1004607022 - cwf-082G.118-NA - McCool Creek</name>
         <styleUrl>#pnt99</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -7029,7 +7029,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004607273 - 2020_planning-mod - Packhorse Creek</name>
+        <name>1004607273 - 2020_planning-082G.109-mod - Packhorse Creek</name>
         <styleUrl>#pnt100</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -7084,7 +7084,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004607406 - 2020_planning-high - NA</name>
+        <name>1004607406 - 2020_planning-082G.113-high - NA</name>
         <styleUrl>#pnt101</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -7137,7 +7137,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004607449 - cwf-NA - NA</name>
+        <name>1004607449 - cwf-082J.104-NA - NA</name>
         <styleUrl>#pnt102</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -7184,7 +7184,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004607464 - 2020_planning-mod - NA</name>
+        <name>1004607464 - 2020_planning-082G.104-mod - NA</name>
         <styleUrl>#pnt103</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -7237,7 +7237,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1004607567 - 2020_planning-high - NA</name>
+        <name>1004607567 - 2020_planning-082G.108-high - NA</name>
         <styleUrl>#pnt104</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -7290,7 +7290,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1024706614 - cwf-NA - Henretta Creek</name>
+        <name>1024706614 - cwf-082J.108-NA - Henretta Creek</name>
         <styleUrl>#pnt105</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -7341,7 +7341,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1024733953 - cwf-NA - NA</name>
+        <name>1024733953 - cwf-082G.108-NA - NA</name>
         <styleUrl>#pnt106</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -7388,7 +7388,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1024734790 - cwf-NA - Brûlé Creek</name>
+        <name>1024734790 - cwf-082G.123-NA - Brûlé Creek</name>
         <styleUrl>#pnt107</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -7439,7 +7439,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1024735049 - cwf-NA - Weigert Creek</name>
+        <name>1024735049 - cwf-082G.123-NA - Weigert Creek</name>
         <styleUrl>#pnt108</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -7488,7 +7488,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1024735443 - cwf-NA - Abruzzi Creek</name>
+        <name>1024735443 - cwf-082J.113-NA - Abruzzi Creek</name>
         <styleUrl>#pnt109</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -7537,7 +7537,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1100001086 - 2020_planning-mod - Harmer Creek</name>
+        <name>1100001086 - 2020_planning-082G.123-mod - Harmer Creek</name>
         <styleUrl>#pnt110</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -7628,7 +7628,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1100001086 - 2020_planning-mod - Harmer Creek</name>
+        <name>1100001086 - 2020_planning-082G.123-mod - Harmer Creek</name>
         <styleUrl>#pnt111</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -7719,7 +7719,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1100001086 - 2020_planning-mod - Harmer Creek</name>
+        <name>1100001086 - 2020_planning-082G.123-mod - Harmer Creek</name>
         <styleUrl>#pnt112</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -7810,7 +7810,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1100002606 - 2020_planning-mod - Boivin Creek</name>
+        <name>1100002606 - 2020_planning-082J.103-mod - Boivin Creek</name>
         <styleUrl>#pnt113</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -7897,7 +7897,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1100002606 - 2020_planning-mod - Boivin Creek</name>
+        <name>1100002606 - 2020_planning-082J.103-mod - Boivin Creek</name>
         <styleUrl>#pnt114</styleUrl>
         <description><![CDATA[<table>
  <thead>
@@ -7984,7 +7984,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>1100002606 - 2020_planning-mod - Boivin Creek</name>
+        <name>1100002606 - 2020_planning-082J.103-mod - Boivin Creek</name>
         <styleUrl>#pnt115</styleUrl>
         <description><![CDATA[<table>
  <thead>

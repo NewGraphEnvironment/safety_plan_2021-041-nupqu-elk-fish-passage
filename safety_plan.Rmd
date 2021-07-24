@@ -7,6 +7,8 @@ output:
     css: ["style-pagedown.css", "default", "letter"]
 links-to-footnotes: false
 paged-footnotes: false
+bibliography: references.bib
+biblio-style: apalike
 # uncomment this line to produce HTML and PDF in RStudio:
 knit: pagedown::chrome_print
 ---
@@ -270,9 +272,9 @@ knitr::asis_output(paste(hospital_name2, hospital_address2, hospital_phone2, sep
 
 Field work methods will result in products feeding reporting formats such as the [2020 deliverables](https://newgraphenvironment.github.io/fish_passage_elk_2020_reporting_cwf/) and will generally follow procedures in: 
 
- * [fish passage assessments](https://www2.gov.bc.ca/assets/gov/environment/natural-resource-stewardship/land-based-investment/forests-for-tomorrow/field-assessment-for-determining-fish-passage-status-of-cbs.pdf) 
+ * [fish passage assessments](https://www2.gov.bc.ca/assets/gov/environment/natural-resource-stewardship/land-based-investment/forests-for-tomorrow/field-assessment-for-determining-fish-passage-status-of-cbs.pdf)  [@fish_passage_assessments]
 
- * [habitat confirmations](https://www2.gov.bc.ca/assets/gov/environment/natural-resource-stewardship/land-based-investment/forests-for-tomorrow/checklist-for-fish-habitat-confirmation-201112.pdf) 
+ * [habitat confirmations](https://www2.gov.bc.ca/assets/gov/environment/natural-resource-stewardship/land-based-investment/forests-for-tomorrow/checklist-for-fish-habitat-confirmation-201112.pdf) [@confirmation_checklist_2011].
  
  <br>
  
@@ -335,7 +337,8 @@ knitr::include_graphics("fig/flow-check-in-fail.png")
 
 
 ##grab the sites from cwf
-sites_cwf_raw <- sf::st_read('data/elk_cwf_priorities.geojson', quiet = T)
+sites_cwf_raw <- sf::st_read('data/elk_cwf_priorities_edited.geojson', quiet = T) %>% 
+  sf::st_drop_geometry()
 
 sites_cwf <- sites_cwf_raw %>% 
   filter(!is.na(aggregated_crossings_id)) %>% 
@@ -366,12 +369,16 @@ conn <- DBI::dbConnect(
   password = password_windows
 )
 
+test <- sf::st_read(conn, query = "select * from working.elk_flathead_planning_20210110")
+
 sites_elk_planning_raw <- sf::st_read(conn,
-                                 query = "select modelled_crossing_id, my_priority, my_text from working.elk_flathead_planning_20210110") %>% 
-  filter(my_priority %in% c('mod', 'high'))
+                                 query = "select stream_crossing_id, modelled_crossing_id, my_priority, my_text from working.elk_flathead_planning_20210110") %>% 
+  filter(my_priority %in% c('mod', 'high')) %>% 
+  mutate(aggregated_crossings_id = case_when(!is.na(stream_crossing_id) ~ stream_crossing_id,
+                                             T ~ modelled_crossing_id + 1000000000L)) ##build the aggregated crsssings id
 
 sites_elk_planning <-  sites_elk_planning_raw %>% 
-  pull(modelled_crossing_id)
+  pull(aggregated_crossings_id)
 
 DBI::dbDisconnect(conn = conn)
 
@@ -391,7 +398,7 @@ conn <- DBI::dbConnect(
 info <- sf::st_read(conn, 
                          query = glue::glue_sql("Select *
                                 FROM bcfishpass.crossings 
-                                WHERE (modelled_crossing_id IN
+                                WHERE (aggregated_crossings_id IN
                                 ({sites_elk_planning*})) 
                                 OR (aggregated_crossings_id IN
                                 ({sites_cwf*}))
@@ -487,21 +494,28 @@ tab_prep2 <- left_join(
 tab_prep3 <- left_join(tab_prep2,
                        widths,
                        by = c('blue_line_key', 'linear_feature_id')) %>% 
-  mutate(source = case_when(modelled_crossing_id %in% sites_elk_planning ~ '2020_planning',
+  mutate(source = case_when(aggregated_crossings_id %in% sites_cwf ~ 'cwf',
                             stream_crossing_id %in% sites_2020 ~ '2020_field',
-                            aggregated_crossings_id %in% sites_cwf ~ 'cwf'))
+                            aggregated_crossings_id %in% sites_elk_planning ~ '2020_planning'))
 
 
-table_sites <- left_join(tab_prep3, 
-                         select(sites_elk_planning_raw, modelled_crossing_id, my_priority, my_text),
-                         by = 'modelled_crossing_id'
-) %>% 
-  mutate(sub5 = total_slopeclass03_waterbodies_km + total_slopeclass05_km,
+tab_prep4 <- left_join(tab_prep3, 
+                         select(sites_elk_planning_raw, aggregated_crossings_id, my_priority, my_text),
+                         by = 'aggregated_crossings_id'
+) 
+
+table_sites <- left_join(tab_prep4,
+                         select(sites_cwf_raw, aggregated_crossings_id, comments, stream_name),
+                         by = 'aggregated_crossings_id')  %>% 
+  mutate(my_text = case_when(!is.na(comments) ~ comments, T ~ my_text), ##add the review of the geojson
+         gnis_name = case_when(is.na(gnis_name) & !is.na(stream_name) ~ stream_name, 
+                                T ~ gnis_name),
+         sub5 = total_slopeclass03_waterbodies_km + total_slopeclass05_km,
          name = paste0(aggregated_crossings_id, ' - ', source, '-', dbm_mof_50k_grid, '-', my_priority, ' - ', gnis_name), 
          desc = paste0('sub5 ', sub5, ' co_s ', co_spawning_km, ' co_r ', co_rearing_km, ' co_ha ', 
                        co_rearing_ha, ' ', ' cw ', channel_width, ' ', my_text),
          color = case_when(my_priority == 'mod' ~ 'yellow',
-                                             T ~ 'red'))
+                           T ~ 'red'))
 ```
 
 
@@ -621,7 +635,7 @@ Figure 1. Map of potential sampling areas. High priority sites in red and modera
 `r if(gitbook_on){knitr::asis_output("<br>")} else knitr::asis_output("<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>")`
 
 
-```{r tab-sites1}
+```{r tab-sites}
 table_sites %>% 
   sf::st_drop_geometry() %>% 
   filter(source == 'cwf') %>% 
@@ -687,5 +701,6 @@ fiss_species_table %>%
 
 ```
 
+<br>
 
-
+# References {.unnumbered}

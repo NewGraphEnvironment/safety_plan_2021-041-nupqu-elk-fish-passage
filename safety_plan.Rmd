@@ -98,6 +98,11 @@ hospital_phone2 <- '250-865-2247'
 hospital_address2 <- '212 Alpine Way, Elkford, BC V0B 1H0'
 ```
 
+
+```{r accomodations}
+
+```
+
 ```{r settings-gitbook, eval= gitbook_on}
 photo_width <- "100%"
 font_set <- 11

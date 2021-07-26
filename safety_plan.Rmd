@@ -67,6 +67,10 @@ link_fieldmaps <- 'https://hillcrestgeo.ca/outgoing/fishpassage/projects/elk/'
 font_set <- 9
 
 
+
+hotel1 <- 'Griz Inn - 5369 Ski Hill Road, Fernie - Contact is Brad 399hflfibzm8cuky1e7h40a9qbl7@reply.airbnb.com'
+hotel2 <- '52 Mt Proctor Ave Fernie, BC. - Contact Cheryl 399hflfibc1swe4ilskuh0jk8zas@reply.airbnb.com'
+
 ```
 
 
@@ -85,6 +89,11 @@ The latest version of this pdf can be downloaded [here](`r knitr::asis_output(li
 A zip file which includes kml (google earth) and gpx (garmin) files of the sites to be potentially assessed can be downloaded [here](`r knitr::asis_output(link_kml)`). Georeferenced pdf maps can be accessed and downloaded [here](`r knitr::asis_output(link_fieldmaps)`).
 
 <br>
+
+**Accomodations**
+
+Al - `r hotel1`  
+Tammy - `r hotel2`
 
 
 ```{r info-hospitals}
@@ -115,6 +124,9 @@ font_set <- 9
 ```
 
 ```{r import-projects}
+
+
+
 ##Read in the contacts spreadsheet
 ####--------------bring in the habitat and fish data------------------
 projects <-  readxl::excel_sheets(path = "./data/projects.xlsx") %>%

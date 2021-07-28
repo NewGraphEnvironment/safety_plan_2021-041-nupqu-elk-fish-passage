@@ -663,9 +663,11 @@ table_sites %>%
          # watershed_code_20k, 
          east, 
          north, 
+         lat,
+         long,
          source,
          id_map = dbm_mof_50k_grid,
-         comments = my_text,
+         # comments = my_text,
          sp_upstr = observedspp_upstr, 
          ) %>% 
   kable(caption = 'CWF - Potential sample locations.', booktabs = T) %>%
@@ -693,6 +695,8 @@ table_sites %>%
          east, 
          north, 
          source,
+         # lat,
+         # long,
          id_map = dbm_mof_50k_grid,
          comments = my_text,
          sp_upstr = observedspp_upstr, 

@@ -68,8 +68,8 @@ font_set <- 9
 
 
 
-hotel1 <- 'Griz Inn - 5369 Ski Hill Road, Fernie - Contact is Brad 399hflfibzm8cuky1e7h40a9qbl7@reply.airbnb.com'
-hotel2 <- '52 Mt Proctor Ave Fernie, BC. - Contact Cheryl 399hflfibc1swe4ilskuh0jk8zas@reply.airbnb.com'
+hotel1 <- 'Unit 415 - 1500 McDonald Avenue Fernie, BC - Contact - Mark 399hflfib4khcd4ild7h41rgv6si@reply.airbnb.com'
+hotel2 <- 'Unit 210 - 1500 McDonald Avenue Fernie, BC. - Contact Nick 399hflfibatpklcqtlfpc1yyc8zu@reply.airbnb.com'
 
 ```
 
@@ -93,7 +93,7 @@ A zip file which includes kml (google earth) and gpx (garmin) files of the sites
 **Accomodations**
 
 Al - `r hotel1`  
-Tammy - `r hotel2`
+Kyle - `r hotel2`
 
 
 ```{r info-hospitals}
@@ -156,7 +156,7 @@ tab_overview %>%
 <br>
 
 ```{r tab-crew}
-crew_ids <- c('airvine', 'tstrauss')
+crew_ids <- c('airvine', 'kprince')
 
 
 tab_crew <- projects %>% 
@@ -663,11 +663,11 @@ table_sites %>%
          # watershed_code_20k, 
          east, 
          north, 
-         lat,
-         long,
+         # lat,
+         # long,
          source,
          id_map = dbm_mof_50k_grid,
-         # comments = my_text,
+         comments = my_text,
          sp_upstr = observedspp_upstr, 
          ) %>% 
   kable(caption = 'CWF - Potential sample locations.', booktabs = T) %>%
@@ -710,7 +710,20 @@ table_sites %>%
   kableExtra::column_spec(column = c(8), width_max = '2.0in')
 ```
 
+<br>
 
+Also - this is email from Betty  
+1. Crossing Creek has been removed from the habitat confirmation list due to low quality habitat.  
+2. Brule Creek 1024734790 has been verified to not exist and has been removed from the list.  
+3. PSCIS crossings 62181 and 62182 on Dry Creek have been added for reassessment. These have had a habitat
+confirmation, but at the time the crossing was embedded and considered to be likely passable. This was 9 years
+ago, so they need to be reassessed.  
+4. Hartley Creek dam immediately upstream of PSCIS crossing 197542 has been added to the list. Requires
+assessment to determine passability by fish; however, a habitat confirmation has already been completed on the
+road crossing immediately downstream, so no habitat confirmation required.  
+5. Dam 2606 remains on the list. This dam is likely not impeding fish passage, as it was supposedly built as a side
+channel that has since filled in and become disconnected from the main channel. Just need to verify that this is the
+case.  
 
 
 ```{r tab-fish, eval=FALSE}

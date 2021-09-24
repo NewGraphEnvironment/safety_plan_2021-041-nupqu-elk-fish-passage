@@ -725,6 +725,16 @@ road crossing immediately downstream, so no habitat confirmation required.
 channel that has since filled in and become disconnected from the main channel. Just need to verify that this is the
 case.  
 
+<br>
+
+
+
+```{r cwf-notes}
+knitr::include_graphics('data/cwf1.png')
+knitr::include_graphics('data/cwf2.png')
+knitr::include_graphics('data/cwf3.png')
+
+```
 
 ```{r tab-fish, eval=FALSE}
 fiss_species_table <- readr::read_csv(paste0(getwd(), '/data/fiss_species_table.csv'))
